@@ -95,11 +95,14 @@ h2 {
   z-index: 1;
 }
 
-.slowMovement {
+.floatingCat {
   transition: ease-in-out all 25s;
   -webkit-transition: ease-in-out all 25s;
+  transform: translate3d(0, 80px, 0);
+  -webkit-transform: translate3d(0, 80px, 0);
   z-index: 10;
   background-repeat: no-repeat;
+
 }
 
 .bottomClass_1 {
@@ -151,9 +154,9 @@ h2 {
   position: absolute;
   top: -2500px;
   left: 600px;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
-  transform: rotate(20deg);
+  -ms-transform: rotate(800deg); /* IE 9 */
+  -webkit-transform: rotate(800deg); /* Chrome, Safari, Opera */
+  transform: rotate(800deg);
 }
 
 .topClass_3 {
@@ -177,19 +180,19 @@ h2 {
 .leftClass_1 {
   position: absolute;
   top: 20px;
-  left: -300px;
-  -ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
+  left: -450px;
+  -ms-transform: rotate(77deg); /* IE 9 */
+  -webkit-transform: rotate(77deg); /* Chrome, Safari, Opera */
+  transform: rotate(77deg);
 }
 
 .leftClass_2 {
   position: absolute;
-  top: 200px;
-  left: -300px;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
-  transform: rotate(20deg);
+  top: 400px;
+  left: -450px;
+  -ms-transform: rotate(-220deg); /* IE 9 */
+  -webkit-transform: rotate(-220deg); /* Chrome, Safari, Opera */
+  transform: rotate(-220deg);
 }
 
 .leftClass_3 {
@@ -214,9 +217,9 @@ h2 {
   position: absolute;
   top: 200px;
   left: 2500px;
-  -ms-transform: rotate(-30deg); /* IE 9 */
-  -webkit-transform: rotate(-30deg); /* Chrome, Safari, Opera */
-  transform: rotate(-30deg);
+  -ms-transform: rotate(-900deg); /* IE 9 */
+  -webkit-transform: rotate(-900deg); /* Chrome, Safari, Opera */
+  transform: rotate(-900deg);
 }
 
 .rightClass_2 {
@@ -385,4 +388,14 @@ h2 {
   height: 300px;
   width: 200px;
   background-size: 200px;
+}
+
+#cat_21,
+#cat_22,
+#cat_23,
+#cat_24 {
+  background-image: url('images/cat_11.gif');
+  height: 300px;
+  width: 300px;
+  background-size: 300px;
 }
