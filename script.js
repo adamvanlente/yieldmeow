@@ -17,7 +17,7 @@ var yieldmeow = {
         idx = Math.floor(Math.random() * cats.length) + 1;
 
     if (!cats[idx]) {
-      return getCat();
+      return yieldmeow.getCat();
     } else {
       return cats[idx];
     }
